@@ -1,4 +1,4 @@
-package config
+package model
 
 // Rule 存储规则结构体
 type Rule struct {

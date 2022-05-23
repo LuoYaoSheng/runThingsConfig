@@ -26,8 +26,6 @@ type Eq2MqCmd struct {
 
 // Eq2MqThreshold 设置阈值
 type Eq2MqThreshold struct {
-	Product string                 `json:"product"` // 产品唯一编码
-	Sn      string                 `json:"sn"`      // 设备唯一编码
-	Type    uint                   `json:"type"`    // 类别;0-新增;1-更新;2-删除
-	Content map[string]interface{} `json:"content"` // 带具体参数
+	Operate uint `json:"type"`    // 类别;0-新增;1-更新;2-删除
+	Content Rule `json:"content"` // 带具体参数
 }
