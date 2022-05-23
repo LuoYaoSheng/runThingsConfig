@@ -15,5 +15,5 @@ type Rule struct {
 type RuleContent struct {
 	Property  string      `json:"property"`
 	Condition int         `json:"condition"`
-	Value     interface{} `json:"value"`
+	Value     interface{} `json:"value"` // 范围示例： [12.3,30.8] // 最小值 ~ 最大值
 }
