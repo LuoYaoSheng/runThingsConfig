@@ -11,6 +11,7 @@ const (
 	EqStatusAbnormal         // 异常
 	EqStatusAlarm            // 告警
 	EqStatusCmd              // 下发指令
+	EqStatusRecovery         // 状态恢复
 	EqStatusNotActive = 50   // 未激活
 	EqStatusDelete    = 51   // 删除
 	EqStatusEmpty     = 98   // 空/无需操作
