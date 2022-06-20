@@ -1,6 +1,6 @@
 package config
 
-//设备状态
+// 设备状态
 const (
 	EqStatusNor       = iota // 正常
 	EqStatusAck              // 应答
@@ -28,4 +28,14 @@ const (
 	ProtocolAMQP
 	ProtocolXMPP
 	ProtocolJMS
+	ProtocolTCP
+	ProtocolUDP
+)
+
+// 查询子集协议
+const (
+	EsGetUnknown = iota
+	EsGetTable
+	EsGetEnable
+	EsGetThreshold
 )
