@@ -35,3 +35,14 @@ type EmqxConf struct {
 	User string
 	Pass string
 }
+
+type OneNetConf struct {
+	Key string
+}
+
+type AepConf struct {
+	AppKey    string
+	AppSecret string
+	ProductId int64
+	MasterKey string
+}
