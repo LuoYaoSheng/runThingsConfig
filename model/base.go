@@ -29,3 +29,9 @@ type Eq2MqThreshold struct {
 	Operate uint `json:"type"`    // 类别;0-新增;1-更新;2-删除
 	Content Rule `json:"content"` // 带具体参数
 }
+
+// Eq2MqSynchroMQ 同步信息
+type Eq2MqSynchroMQ struct {
+	Product string                 `json:"product"` // 产品key
+	Content map[string]interface{} `json:"content"` // 带具体参数
+}
