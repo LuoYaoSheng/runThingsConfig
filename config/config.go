@@ -26,7 +26,7 @@ type MqttConf struct {
 	Broker   string
 	Username string
 	Password string
-	Topic    string
+	Topics   []string
 	Qos      byte
 }
 
