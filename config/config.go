@@ -46,3 +46,18 @@ type AepConf struct {
 	ProductId int64
 	MasterKey string
 }
+
+
+type AliSMSConf struct {
+	AccessKeyId       string
+	AccessSecret      string
+	RegionId          string
+	Product           string
+	Version           string
+	SignName          string
+	TemplateCode      string
+	AlarmSignName     string
+	AlarmTemplateCode string
+	Expire            int64
+	Tts               []string
+}
